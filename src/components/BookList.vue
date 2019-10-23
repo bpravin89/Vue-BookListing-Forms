@@ -44,11 +44,11 @@ export default {
     BookForm
   },
   methods: {
-    appendBook(bookdata) {
+    appendBook(bookData) {
       this.books.push({
-        title: bookdata.bookTitle,
-        author: bookdata.bookAuthor,
-        finishedReading: bookdata.finishedReading
+        title: bookData.bookTitle,
+        author: bookData.bookAuthor,
+        finishedReading: bookData.finishedReading
       });
     }
   }
